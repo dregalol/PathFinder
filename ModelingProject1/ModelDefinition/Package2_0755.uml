@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="87a50840-4060-4681-8096-350c8226d59e"
+  name="WebApi"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="e78b5a25-630f-4392-82e4-fdfd1ed92a5e"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPathFinder.Security.WebApi"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d2d010b4-761a-4b22-89fc-01b6541345f6"
+        LastKnownName="Commands"
+        LastKnownLocation="Package3_0755.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1951ce39-33f7-4db7-a96c-ec0794794123"
+        LastKnownName="Models"
+        LastKnownLocation="Package4_0755.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="530d3625-2c82-49d1-adc4-9a7fe8da7c07"
+        LastKnownName="Controllers"
+        LastKnownLocation="Package5_0755.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="614349f7-a9e1-4da9-82aa-fef87d416eb6"
+        LastKnownName="Queries"
+        LastKnownLocation="Package6_0755.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="83d43f5b-b758-4c6f-aec6-48f0ff343e0e"
+        LastKnownName="Mappers"
+        LastKnownLocation="Package9_0755.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="40384513-bb40-4db2-ac9b-79c6cf7a796e"
+        LastKnownName="Package"
+        LastKnownLocation="Package_0756.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

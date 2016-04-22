@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="17c47dfd-deec-4738-b841-f64aba638922"
+  name="Infrastructure"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ede29003-a287-44c8-ac41-c696cb7ef84f"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPathFinder.Infrastructure"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3341c904-42b7-4be2-89b9-73e1fe015c55"
+        LastKnownName="Constants"
+        LastKnownLocation="Package1_0707.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b93dd975-fad8-44b9-8ea2-ec6fe1babdf5"
+        LastKnownName="Extensions"
+        LastKnownLocation="Package2_0707.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="eebe7c85-83bb-45da-a1cb-d1adb38d0b37"
+        LastKnownName="Providers"
+        LastKnownLocation="Package_0708.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

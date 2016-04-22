@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="530d3625-2c82-49d1-adc4-9a7fe8da7c07"
+  name="Controllers"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5c334105-ceed-483f-bea3-0f857729ddce"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPathFinder.Security.WebApi.Controllers"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="674edd45-8d0e-4cd4-a270-50647794342e"
+        name="AccountController"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="eeadc2b1-63ec-48c7-b991-c73da1e023aa"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Controllers Type%3DAccountController"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cd3a8eba-91e9-40bc-99a5-a84b91fbfe7a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e8eaff5c-3a75-45b1-a510-f26fdb4e803e">
+                <propertyInstance
+                  Id="ff46ccbe-caf2-4725-9058-7c836d212501"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8f496525-83c9-4704-a307-82811545f1c0">
+                <propertyInstance
+                  Id="67e3cd08-79be-4fe8-8b5c-692162b7b2cd"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2f6a430a-4cf4-4514-8828-6b35f14932a1">
+                <propertyInstance
+                  Id="61224f94-1662-452c-b75b-f7ee8e16c94d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3d1b7b16-a2a6-446c-b421-3a9dba6b8400">
+                <propertyInstance
+                  Id="e994fc89-d8ee-4326-b885-5b3273023e27"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="25cbdc65-f854-4bfd-bea0-c64052d26a46">
+                <propertyInstance
+                  Id="5fd178a2-c95b-4d65-a4eb-28eb5bee9f35"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="50e0f1cb-1c19-4a63-8e1f-76806b12128c">
+            <interfaceMoniker
+              Id="d44b187a-08cc-44ef-8942-e41c888fc7af"
+              LastKnownName="IUserQuery"
+              LastKnownLocation="Package6_0755.uml" />
+          </dependency>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="c695c86a-be91-4253-b4fb-99928afa0df3"
+            isSubstitutable="false">
+            <classMoniker
+              Id="79303106-5d17-4fa7-a9da-606164f6763a"
+              LastKnownName="ApiController"
+              LastKnownLocation="Package8_0755.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="bfdf86fe-c25f-4d83-9ff7-b0577773cae4"
+            isDerived="false"
+            sourceEndRoleName="AccountController"
+            targetEndRoleName="IRegisterUserCommand"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="de448bdb-cb7f-448f-8e8b-4b147a3df07c"
+              LastKnownName="IRegisterUserCommand"
+              LastKnownLocation="Package3_0755.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8c2130b4-2b67-41d9-a2dd-99b0763219da"
+                  name="AccountController"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="94043cca-6e98-4bee-909f-6f238b5f1159"
+                  name="IRegisterUserCommand"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="03b122d2-0848-4e4d-9270-69168f304ba9"
+            name="_registerUserCommand"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="73e48436-a4ff-468d-9b60-dbb7f5d12f7c"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Controllers Type%3DAccountController Member%3D_registerUserCommand"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7851835e-b216-4796-8db5-646669e09c76"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca50968d-94a1-4239-bdc0-f145c6f38fb7">
+                    <propertyInstance
+                      Id="3a361beb-d754-4c94-9bd7-b18869c8484c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d551186-382b-4ccf-b31d-5fa3fd10b693">
+                    <propertyInstance
+                      Id="63dbe3ab-b04f-4eb7-b18f-4f43761bfab3"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6298a23-55c6-4d33-b42d-c59a2606f726">
+                    <propertyInstance
+                      Id="c0929371-6bc2-4aa6-b169-15e68c262697"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="260019dc-c4ad-4205-83c4-ddc30c75d848">
+                    <propertyInstance
+                      Id="03ca79b9-cde7-41b7-b60f-8f9de9b24af8"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="987d25d4-a355-4d1f-8c70-2fa714fc1567">
+                    <propertyInstance
+                      Id="902bce2d-363d-4b90-b811-5d208f8bdb81"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="de448bdb-cb7f-448f-8e8b-4b147a3df07c"
+                LastKnownName="IRegisterUserCommand"
+                LastKnownLocation="Package3_0755.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9d9244d8-5440-4a71-91ca-07b4acbbb4c1"
+            name="_userQuery"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fdf5190f-a7aa-4e2a-bc2b-65db0bd8d970"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Controllers Type%3DAccountController Member%3D_userQuery"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c63a43ae-121a-45d0-a91c-9ee7f2a6c463"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b8bc485-4d2f-439d-b24f-219526ee8905">
+                    <propertyInstance
+                      Id="48e7b39e-59be-483a-a9d5-b504c5501dee"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="687c8bd1-1787-4113-920d-8ee8a5830a79">
+                    <propertyInstance
+                      Id="86081736-2f39-415a-b60a-049f8ef94def"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7cdab1ca-a826-4d13-a6f2-eb1ffa7135ca">
+                    <propertyInstance
+                      Id="b82cb231-b0e3-46ce-aaa7-e94f8a3535e5"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8c5c56e-39d2-4753-a844-3723603f66cf">
+                    <propertyInstance
+                      Id="ea46e1e1-06bf-4283-a27e-c7d56fd6c0cb"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7e2f415-0484-4cd5-b757-2cd1222ec7e4">
+                    <propertyInstance
+                      Id="4c3b6f69-0e93-42bd-a989-ab4dd7033432"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="d44b187a-08cc-44ef-8942-e41c888fc7af"
+                LastKnownName="IUserQuery"
+                LastKnownLocation="Package6_0755.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7a69871e-f395-45ac-8a65-d3ac565d3bb3"
+            name="AccountController"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4ff6dc0e-bc8b-4815-95a0-42f92f60126a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Controllers Type%3DAccountController Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Commands Type%3DIRegisterUserCommand)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Queries Type%3DIUserQuery)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="da3da16c-9870-4652-9fd7-521a47c5408d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11b5cf34-a366-4865-a571-afc2e3829c29">
+                    <propertyInstance
+                      Id="cff13cd7-464f-4b34-8654-777a5c6c3454"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d594b07-0ba9-474a-9b53-88bef4832113">
+                    <propertyInstance
+                      Id="2273405f-3121-4830-9b67-d8f6632e4f54"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e10f554e-0b78-4e70-a24e-2dc506946e5e">
+                    <propertyInstance
+                      Id="92903364-a45e-4b41-a70a-5d0bd65ca751"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3776aae5-ffea-46a7-8a72-06de9e2be088">
+                    <propertyInstance
+                      Id="b227e9b1-65f3-457a-a40a-6e6fb310d631"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd0b21a1-e288-439d-be5c-b98d400a5b3a">
+                    <propertyInstance
+                      Id="eae50f93-8c64-46bc-b31a-1b1e1e1ac02e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b77d8448-2e84-4a8c-b162-7934ab739b99">
+                    <propertyInstance
+                      Id="41bd47fc-c24b-469b-a22f-d37b63ce3cde"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="56b9aa99-af9e-4cba-b0fe-334f7a7a49c0"
+                  name="command"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f34c9989-5820-4d11-bf33-da21a94ee3cd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Controllers Type%3DAccountController Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Commands Type%3DIRegisterUserCommand)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Queries Type%3DIUserQuery)]) ParameterIdentifier%3Dcommand"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="de448bdb-cb7f-448f-8e8b-4b147a3df07c"
+                      LastKnownName="IRegisterUserCommand"
+                      LastKnownLocation="Package3_0755.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="453e610b-a6eb-43e8-9c71-15dea7745374"
+                  name="query"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="dc91bf79-4309-45f4-9f28-f31e6b4aed96"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Controllers Type%3DAccountController Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Commands Type%3DIRegisterUserCommand)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Queries Type%3DIUserQuery)]) ParameterIdentifier%3Dquery"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="d44b187a-08cc-44ef-8942-e41c888fc7af"
+                      LastKnownName="IUserQuery"
+                      LastKnownLocation="Package6_0755.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3d0211aa-e70c-4f2d-be08-e25af2cac668"
+            name="Register"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="00c10283-aca5-4a98-9b30-a624078457dd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Controllers Type%3DAccountController Member%3D(Name%3DRegister OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Models Type%3DRegisterUserModel)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fffc4646-425b-4194-a8b8-9c9472befca5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="770dca4b-02b1-4acf-a50e-ce4d09af625b">
+                    <propertyInstance
+                      Id="49adf7b7-ef52-4df6-bdeb-e1d47ee18c02"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51a7e1b3-ddbd-4a4f-bf60-4460dd5e0617">
+                    <propertyInstance
+                      Id="189a1b80-77db-4353-a3ad-df405a5c3f12"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b12dac23-0685-4b13-8be6-e1df5021df24">
+                    <propertyInstance
+                      Id="4db20485-4486-4d2d-9852-0d072388cbe1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="231ff24d-83d3-4d44-8c3e-621380c61c47">
+                    <propertyInstance
+                      Id="f4de4084-9b43-40ff-8861-66a36c3bd893"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd77384d-75bf-475c-a19c-c0b08e7b44f3">
+                    <propertyInstance
+                      Id="f6864c0b-33cd-4c90-90b3-1c2ea4def008"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97165172-5748-450c-beca-caa3b5a497ed">
+                    <propertyInstance
+                      Id="63ad03b5-6958-40b6-97d6-d8e1be7da8ac"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c03bc929-649d-44e3-bec2-b7d89ea3ec03"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0ba89110-6cef-4fe6-a073-daa7c8971698"
+                      LastKnownName="Task&lt;IHttpActionResult‎&gt;"
+                      LastKnownLocation="Package3_0708.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8584c790-52ca-4e13-8329-7bf2067588a0"
+                  name="model"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1f06a5b3-8818-49d8-92b2-9dde4d28c5c1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Controllers Type%3DAccountController Member%3D(Name%3DRegister OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Models Type%3DRegisterUserModel)]) ParameterIdentifier%3Dmodel"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="445f1fc8-2324-4493-9f5c-f9638fbf1127"
+                      LastKnownName="RegisterUserModel"
+                      LastKnownLocation="Package4_0755.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b150ad75-c736-4c92-b169-fec22af3c71d"
+            name="GetUser"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fab4ce71-a510-431f-bcc2-c424234acb4d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Controllers Type%3DAccountController Member%3D(Name%3DGetUser OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7b829654-54c5-4d6b-aa21-6ea4f597b8a9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51aa0d87-809f-4d6e-9855-078ce6897922">
+                    <propertyInstance
+                      Id="f6640a23-b3c2-4883-8696-3c97b8088162"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0d70c67-4db9-48ad-9365-3afebcfed58c">
+                    <propertyInstance
+                      Id="ecb986ff-2eb0-433a-8977-f57000644185"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb07171c-0fb7-4e39-abc4-524915c35b35">
+                    <propertyInstance
+                      Id="20f8e692-191f-4c99-b1d9-5cc3471cdd54"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f81579b7-2d5a-4d18-bacc-361ba8f23c4e">
+                    <propertyInstance
+                      Id="da41f84a-5978-432e-8afc-10108f405691"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2af283f5-812f-4cff-aea9-2355c125fadb">
+                    <propertyInstance
+                      Id="540f73e0-dd11-4883-bbcc-c6f55afe6e1f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89ae1ce3-30f7-487d-a63d-82d7beeec5c1">
+                    <propertyInstance
+                      Id="db495def-10b4-4886-8266-34b3feb96570"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e1ab25a2-5e1c-46c9-a93e-b72ffddeeaaf"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="325193c6-183c-46ed-8f0e-e0ae5b350658"
+                      LastKnownName="IHttpActionResult"
+                      LastKnownLocation="Package8_0755.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4bef9667-34f2-4662-b762-bfa2f312ddf5"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c525b141-d4b8-4b19-8728-15cef4755fda"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Controllers Type%3DAccountController Member%3D(Name%3DGetUser OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

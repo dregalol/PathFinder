@@ -35,7 +35,7 @@ namespace PathFinder.Security.WebApi.Controllers
                 return new StatusCodeResult((HttpStatusCode)422, this);
 
             var user = model.ToUserEntity();
-            return Created($"account/users/{id}", user);
+            return Created(string.Format("account/users/{0}", id), user);
         }
 
         [HttpGet]

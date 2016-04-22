@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="PathFinder.Security.DAL.Context.AppUserStore" Collapsed="true">
+    <Position X="6.25" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFinder.Security.DAL.Context.SecurityContext" Collapsed="true">
+    <Position X="2.75" Y="11" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFinder.Security.DAL.Entities.AppRole" Collapsed="true">
+    <Position X="2.75" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFinder.Security.DAL.Entities.AppUser" Collapsed="true">
+    <Position X="4.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFinder.Security.DAL.Entities.AppUserClaim" Collapsed="true">
+    <Position X="6.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFinder.Security.DAL.Entities.AppUserLogin" Collapsed="true">
+    <Position X="8" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFinder.Security.DAL.Entities.AppUserRole" Collapsed="true">
+    <Position X="4.5" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFinder.Security.DAL.Managers.AppUserManager" Collapsed="true">
+    <Position X="2.75" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFinder.Security.DAL.Migrations.initial" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="10" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PathFinder.Security.DAL.Package.SecurityDalPackage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="11" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PathFinder.Security.WebApi.Controllers.AccountController" Collapsed="true">
+    <Position X="11" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFinder.Security.WebApi.Mappers.UserMapper" Collapsed="true">
+    <Position X="11" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFinder.Security.WebApi.Models.RegisterUserModel" Collapsed="true">
+    <Position X="12.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFinder.Security.WebApi.Models.UserModel" Collapsed="true">
+    <Position X="12.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFinder.Security.WebApi.Package.SecurityWebApiPackage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="PathFinder.Security.WebApi.Commands.IRegisterUserCommand" Collapsed="true">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="PathFinder.Security.WebApi.Queries.IUserQuery" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

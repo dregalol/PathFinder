@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c1af445e-6ed3-4309-9be8-490f1d7c5946"
+  name="OAuth"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="9b6798fa-4dae-42b4-a559-980dd56db5f3"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin.Security.OAuth"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="ff0d6ef5-d503-4267-b95d-ef3975ea6e43"
+        name="OAuthValidateClientAuthenticationContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="230b2527-c309-49b3-965c-8f3d521070cc"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FMicrosoft.Owin.Security.OAuth.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthValidateClientAuthenticationContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f080f7ed-08a7-461c-b0be-e505e75cb086"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c9857f6-42fe-4563-8a3b-f2cc732daf00">
+                <propertyInstance
+                  Id="cbb219ff-ea0c-4753-85bf-b8dad2df635d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c50f956c-c303-4464-8028-9d29db60ee72">
+                <propertyInstance
+                  Id="10351abb-e09e-4795-abc0-bcd9ed3d69fe"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9ad6d243-5ebc-4b7e-91cb-164cc48ab5d4">
+                <propertyInstance
+                  Id="f79944ac-c812-462f-8e46-12b083e1b31d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dd51bcd0-a759-411d-b9db-79ceb4b2d79a">
+                <propertyInstance
+                  Id="3b11b5fb-9a52-41c1-8adf-6c3f6d40cf0c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="adba03e3-0ad7-474b-b463-6a78b08d14de">
+                <propertyInstance
+                  Id="667fb475-7ead-4498-bc08-02ad55a23334"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0e6364ec-d8bb-4658-ba38-ab666eb9fa19"
+        name="OAuthGrantResourceOwnerCredentialsContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7d39f9aa-a424-44cb-8875-1c143aaec535"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FMicrosoft.Owin.Security.OAuth.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthGrantResourceOwnerCredentialsContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a1c8813e-7be2-4485-8671-ba377aa49080"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa68e941-d8a3-48f3-92b8-e492b44070be">
+                <propertyInstance
+                  Id="1a20b032-5b97-4d4b-9024-bbc7ca2694b8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b90b9b33-fc30-4e7a-856f-383d159e98b3">
+                <propertyInstance
+                  Id="7957fcf6-61a3-49ce-a92f-d30fe2a5a4e9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="efc304f1-6bfe-4d72-92b1-a81258e785e5">
+                <propertyInstance
+                  Id="fc3122e5-c9c4-4bf3-ad6c-342045524fc7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c462267-7cf4-42e7-8daa-ccd9ffff3e34">
+                <propertyInstance
+                  Id="11000bc2-1a9c-417d-959f-9d5beb551a2c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7685ddc-9f0f-4f52-befc-779cc90bd702">
+                <propertyInstance
+                  Id="1feeafd6-f1f4-48b4-aedd-679c2034c979"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="76ca353c-9550-4afc-9ded-646ae044d0b2"
+        name="OAuthAuthorizationServerProvider"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="38c8de21-ca86-42ad-923a-1127e69b4a58"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FMicrosoft.Owin.Security.OAuth.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthAuthorizationServerProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="673f695b-ddcd-479e-8728-fa430a9ff317"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8d1772cd-4d7d-4bc7-81d1-fbfc18623381">
+                <propertyInstance
+                  Id="c53a17e8-26cf-4bbb-ac52-f186fd84a93a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c590d138-0dea-4751-9478-bcbe48f8ab13">
+                <propertyInstance
+                  Id="c6077963-7e6f-485d-bf03-435d63ce8d00"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="47b7e284-01eb-4368-9d06-02230762da99">
+                <propertyInstance
+                  Id="fa5736d9-5426-4d0c-bbac-2236b3c8a6cc"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="78b00614-2338-4334-87b6-eeb1d11e0478">
+                <propertyInstance
+                  Id="5ba58a74-e481-4a68-9276-acba405fa798"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="991f349d-7ae8-4141-a908-1f9f7efecd74">
+                <propertyInstance
+                  Id="33894d9c-4207-4f4a-ba18-f609cba0e855"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

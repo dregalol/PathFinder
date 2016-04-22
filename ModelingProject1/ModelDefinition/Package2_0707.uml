@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="b93dd975-fad8-44b9-8ea2-ec6fe1babdf5"
+  name="Extensions"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="3d22bd13-d236-429e-b86a-56dbc95c007e"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPathFinder.Infrastructure.Extensions"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="d40917a1-979c-4fcf-a5b2-26f7de75ce89"
+        name="UseOwinContextInjectorExtension"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d1750c67-4ee2-45e4-933d-af32599763b9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Infrastructure%2Fbin%2FDebug%2FPathFinder.Infrastructure.dll Namespace%3DPathFinder.Infrastructure.Extensions Type%3DUseOwinContextInjectorExtension"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3e4b4660-feca-4f9a-bafc-1311d22f3c56"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b8cab372-6113-4b71-890c-ebbf2f5e4960">
+                <propertyInstance
+                  Id="61d65043-2834-4380-8bd5-64741173672b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2d7e6ed9-97fd-45a5-9d30-a0a1507be8ab">
+                <propertyInstance
+                  Id="1b36ab52-5c19-45c9-9953-478c670f5beb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="552785f4-df26-41ee-988e-62196d72265f">
+                <propertyInstance
+                  Id="808f9e3e-3624-4335-bc4a-e7af50404d62"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="58930ece-7b94-4d07-a96a-7a925d7137e8">
+                <propertyInstance
+                  Id="5f7d6e48-4cc7-4102-af74-b8fdef14b772"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="947ed696-9c31-43cf-8f1a-0337921a7056">
+                <propertyInstance
+                  Id="df8ee19c-f9f1-4e29-8303-06296d6d118e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="46a812d7-a9cf-4afa-b3a0-ee00d8651510"
+            name="UseSimpleInjectorContext"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1c019671-cc18-446f-8718-d45b2825eae2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Infrastructure%2Fbin%2FDebug%2FPathFinder.Infrastructure.dll Namespace%3DPathFinder.Infrastructure.Extensions Type%3DUseOwinContextInjectorExtension Member%3D(Name%3DUseSimpleInjectorContext OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FSimpleInjector.3.1.2%2Flib%2Fnet45%2FSimpleInjector.dll Namespace%3DSimpleInjector Type%3DContainer)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ef7e2df3-57c5-47df-b176-d3dc8a6317bc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a93e7e3d-25b7-415b-abad-71cb3c11e120">
+                    <propertyInstance
+                      Id="2b899008-ccb4-4194-b715-e8540de68d04"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39235ab5-5485-45d4-9af6-3054b8f5c9ae">
+                    <propertyInstance
+                      Id="66864d5b-d1aa-4f78-915f-7a28b2c83510"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0262cc5-1ec6-4504-b989-c3b0915874bd">
+                    <propertyInstance
+                      Id="0792f9fe-b734-4969-8af4-58144c7cdd53"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="458da3c8-0e51-4e86-bfbb-a755ddf2a221">
+                    <propertyInstance
+                      Id="fe55e69d-e0eb-4db7-aa07-dcc09c19e1ae"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86a7c1da-033c-4077-af85-55928e1e809e">
+                    <propertyInstance
+                      Id="59d9387d-be39-4fdd-be2d-9a03515df77b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fb0d1b2-90ae-450d-82f2-5e5ac92c2999">
+                    <propertyInstance
+                      Id="10b3f53e-94e6-435f-ab9c-5060c063d595"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5eb76f1d-e4d3-4ace-8e3a-420c8f346bf2"
+                  name="app"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e71d490a-0ccc-45d5-aba4-0fd39890f5e2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Infrastructure%2Fbin%2FDebug%2FPathFinder.Infrastructure.dll Namespace%3DPathFinder.Infrastructure.Extensions Type%3DUseOwinContextInjectorExtension Member%3D(Name%3DUseSimpleInjectorContext OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FSimpleInjector.3.1.2%2Flib%2Fnet45%2FSimpleInjector.dll Namespace%3DSimpleInjector Type%3DContainer)]) ParameterIdentifier%3Dapp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="a482010c-078c-49c2-9971-4ae604a11cd7"
+                      LastKnownName="IAppBuilder"
+                      LastKnownLocation="Package2_0705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="60dbffe9-e637-4046-ae10-0960802477ab"
+                  name="container"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6a55e7b3-4d1d-47f8-b7d2-aff1e785ab55"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Infrastructure%2Fbin%2FDebug%2FPathFinder.Infrastructure.dll Namespace%3DPathFinder.Infrastructure.Extensions Type%3DUseOwinContextInjectorExtension Member%3D(Name%3DUseSimpleInjectorContext OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FSimpleInjector.3.1.2%2Flib%2Fnet45%2FSimpleInjector.dll Namespace%3DSimpleInjector Type%3DContainer)]) ParameterIdentifier%3Dcontainer"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="61d783f4-33c6-439b-b7ba-f74b4623afdd"
+                      LastKnownName="Container"
+                      LastKnownLocation="Package3_0705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

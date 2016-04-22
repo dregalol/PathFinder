@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="eb849fc6-e809-464f-9fcb-16f490be2ffe"
+  name="EntryPoint"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1919dc6f-e7d6-4d29-8125-568e691410fb"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPathFinder.EntryPoint"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="1e962714-69c9-49f2-8a39-5a89eb22100e">
+      <profileInstance
+        Id="6eb5707c-9df3-4fea-a352-1c33bfb24f86"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="40b1f352-7d4c-48cf-967d-1aca4728f892"
+        name="Startup"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e7d8ac49-f19f-4934-a391-0c7bbb155425"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.EntryPoint%2Fbin%2FPathFinder.EntryPoint.dll Namespace%3DPathFinder.EntryPoint Type%3DStartup"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="45ada691-4dd0-4f57-ac29-e3993359595f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5cca9745-e2c8-4ca8-8ee7-26e03afea314">
+                <propertyInstance
+                  Id="e6b8413a-d4b7-4402-b6c4-f26770435487"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e53bffc3-8826-4c14-9a6b-3710726cc2c2">
+                <propertyInstance
+                  Id="2016b6e8-8c67-482f-9ee3-ed5dd9f71064"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d3fefbd-33b5-469f-b550-8ef473c7f0a7">
+                <propertyInstance
+                  Id="4133ffcb-2bbb-4503-ad6b-6c44b718e539"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5de58cc8-31ce-424b-93e3-44ca7e00d541">
+                <propertyInstance
+                  Id="e1040544-fd1f-42ed-9b4d-a3ec6ac0993d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="798d2c87-2e0d-43d5-ba56-8f506303b557">
+                <propertyInstance
+                  Id="cb749a17-2e27-4f72-b05d-220f4612c225"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="54900e27-6f71-46f5-90e9-b6395c1a6c65"
+            name="Configuration"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0478ec70-fc36-4b7e-8c3a-d8ce3aa198c1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.EntryPoint%2Fbin%2FPathFinder.EntryPoint.dll Namespace%3DPathFinder.EntryPoint Type%3DStartup Member%3D(Name%3DConfiguration OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="09095147-b1f3-4d28-ad12-5a3bda460cf2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa8f00fd-851c-4c6a-9465-4ccfdcda85a2">
+                    <propertyInstance
+                      Id="e775a19f-992a-432b-a97d-39b1b8538b52"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0e8a686-984a-4e6f-9901-5ae1fc9de4cf">
+                    <propertyInstance
+                      Id="2fa609ee-86e8-445a-809e-e53f71f27f9f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d548ce61-8cd1-401a-b6ba-37a475a8a9f3">
+                    <propertyInstance
+                      Id="23cffa67-3ea9-431f-aa4c-7bd1e54ff527"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba75e8ea-6001-45eb-83d0-4783a672ebdc">
+                    <propertyInstance
+                      Id="33242d1a-4283-4326-a159-b7f69b03c33b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4022b427-37de-4887-b22e-17f33bcb1649">
+                    <propertyInstance
+                      Id="bac43907-fb3e-4681-9aaf-f5a546a3faf7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1863323-49e3-41af-88e7-c20a32e20e6a">
+                    <propertyInstance
+                      Id="836bf982-50e9-48d4-87f9-4e12efb17592"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b235e1b4-b1f2-474f-a093-16c97df7c8d8"
+                  name="app"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="da07a123-b438-4afc-bbf5-4c5355633074"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.EntryPoint%2Fbin%2FPathFinder.EntryPoint.dll Namespace%3DPathFinder.EntryPoint Type%3DStartup Member%3D(Name%3DConfiguration OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)]) ParameterIdentifier%3Dapp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="a482010c-078c-49c2-9971-4ae604a11cd7"
+                      LastKnownName="IAppBuilder"
+                      LastKnownLocation="Package2_0705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a9ac2178-5cfb-471c-9512-3b04b41df0a1"
+            name="ConfigureOAuth"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ec7f0c7e-b57b-4336-a015-f2c58eca0db3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.EntryPoint%2Fbin%2FPathFinder.EntryPoint.dll Namespace%3DPathFinder.EntryPoint Type%3DStartup Member%3D(Name%3DConfigureOAuth OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="809b95e8-bf4e-45ff-b3ea-17e7c77ce84f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43cc2b32-adc5-4a40-be99-ece79a97f122">
+                    <propertyInstance
+                      Id="d7770eb5-b7b0-429f-ac72-4a29f5107f46"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="733430f2-a96b-4808-93f2-4944b1f7b598">
+                    <propertyInstance
+                      Id="c297b522-656b-4600-b282-69cd70d2782f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36c74006-11b7-4982-ac22-db7050f03996">
+                    <propertyInstance
+                      Id="0cf97e7e-f50a-4661-a5b3-9b70a23f956a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2351c92a-a1fe-4f73-a23e-8ea820e4b759">
+                    <propertyInstance
+                      Id="a3b4d052-25c5-475d-98a4-be62ee0f31fd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="463bcc1e-d4a8-442f-affc-d6701e12718a">
+                    <propertyInstance
+                      Id="1d0d5ba7-a9d7-4184-877b-df7d27af67d9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84c3b290-f934-4caa-ba64-76ba9ba02cd1">
+                    <propertyInstance
+                      Id="4c7dbb8b-8f01-4f41-89e0-1b5facc2b3ba"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b883b5fa-59a3-4378-9ddc-39a7508f4ab4"
+                  name="app"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d3e7f094-8c52-40f6-aab4-0cc782bfdaef"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.EntryPoint%2Fbin%2FPathFinder.EntryPoint.dll Namespace%3DPathFinder.EntryPoint Type%3DStartup Member%3D(Name%3DConfigureOAuth OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)]) ParameterIdentifier%3Dapp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="a482010c-078c-49c2-9971-4ae604a11cd7"
+                      LastKnownName="IAppBuilder"
+                      LastKnownLocation="Package2_0705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1166b547-af31-4422-ad38-72f9c95af27f"
+            name="Startup"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7cfcda15-f60d-4eb7-a9e7-f2d7c541e041"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.EntryPoint%2Fbin%2FPathFinder.EntryPoint.dll Namespace%3DPathFinder.EntryPoint Type%3DStartup Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="32a4bf51-0162-49f1-9584-03999170c315"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81cfaf8d-ab18-47ff-950e-e62dc24c9694">
+                    <propertyInstance
+                      Id="7ff20cbe-773a-4684-bc04-23e5ca0c0bb0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a94bf3c5-6703-424a-80bc-978b248eebd3">
+                    <propertyInstance
+                      Id="b4c09589-d1be-41ce-ac80-fd0fe473b5e7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="666754b0-53b5-4f01-a8c0-28bf5c40f17b">
+                    <propertyInstance
+                      Id="2c58e797-f725-404f-a6b3-479871dda7ca"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fae09dd-d67a-4b96-8f44-06c405016545">
+                    <propertyInstance
+                      Id="ff4ef77c-26ec-4e78-8fe8-6f581224569f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed831e66-dd50-47fd-ab7f-48dc22ee06df">
+                    <propertyInstance
+                      Id="754b915f-98ea-4a53-af7e-c4af706e6ca4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74d60b08-9516-417b-b683-2315fb26163e">
+                    <propertyInstance
+                      Id="381f89af-17b6-4c66-8c1e-5e38804f9220"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bb1afd1f-0831-46a0-bbfc-a1166834e924"
+        name="SimpleInjectorConfiguration"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3ab7a02d-9e77-4006-9e33-8db0f33a2cf1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.EntryPoint%2Fbin%2FPathFinder.EntryPoint.dll Namespace%3DPathFinder.EntryPoint Type%3DSimpleInjectorConfiguration"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2188600c-97e2-466a-83fa-020e6212e699"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ccdfb99f-8a28-4f69-a873-505cbf74f899">
+                <propertyInstance
+                  Id="5f27f6c9-4ab3-4cca-affb-ac9cba2bf1b7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="273a1d86-2c16-4130-aa77-d19e018e8ca8">
+                <propertyInstance
+                  Id="b3e896a4-88fc-462b-a658-f599150fd892"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f94098e9-50d3-4922-9a5c-1aea9aba657d">
+                <propertyInstance
+                  Id="d9bb4499-ef83-4c6d-8235-1bd770ec8a6e"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5070e392-997b-47b1-a766-9e1e77693841">
+                <propertyInstance
+                  Id="8e2232d3-6e84-4bc1-bcda-eb11bae50493"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bdf0094e-c60e-4d11-9417-ef813a35c794">
+                <propertyInstance
+                  Id="0d842a67-c819-4be1-bd99-5568372c58e5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="19d36c9b-f695-4e89-a2f6-e0b89abaf96a"
+            name="ConfigurationSimpleInjector"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d649dfa9-7372-4a20-a1d0-e1958a03ef28"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.EntryPoint%2Fbin%2FPathFinder.EntryPoint.dll Namespace%3DPathFinder.EntryPoint Type%3DSimpleInjectorConfiguration Member%3DConfigurationSimpleInjector"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d36734ef-768f-418f-942c-580c74993917"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74337873-c318-4d27-a9d7-f355b5f6e07e">
+                    <propertyInstance
+                      Id="6b1f66c6-ca25-4873-82e7-24b34181c253"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="001201cf-84e2-4fc8-85fb-c50cd2503392">
+                    <propertyInstance
+                      Id="8dbc2192-f3d6-4ab1-873d-3af6e9fdf5c0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="818d088c-c281-45b5-8982-7028bd5f0673">
+                    <propertyInstance
+                      Id="2d81e574-06a7-4665-be92-d60dac47da3c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fea287da-5ca2-40aa-986d-9d35280df05c">
+                    <propertyInstance
+                      Id="13ee91d2-009e-4858-bfe4-b9171e7a469e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f6fb6a5-f7c4-495a-a6d8-1413afddcfc1">
+                    <propertyInstance
+                      Id="c5890bfc-b81b-491a-895b-414e4e1d5f71"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16cef82a-4f42-40c7-91d7-c54dc46c5bdf">
+                    <propertyInstance
+                      Id="129c38d2-f346-4bfa-8e1c-348b6d1ebf8e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="05a0c4b9-c77a-4aa7-ba87-74fb4d87eaa5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="61d783f4-33c6-439b-b7ba-f74b4623afdd"
+                      LastKnownName="Container"
+                      LastKnownLocation="Package3_0705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="09941967-1f4f-43b5-b185-7aaa1a40be14"
+            name="RegisterPackages"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="81838e93-3658-4f5a-828c-66c51fd199c4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.EntryPoint%2Fbin%2FPathFinder.EntryPoint.dll Namespace%3DPathFinder.EntryPoint Type%3DSimpleInjectorConfiguration Member%3D(Name%3DRegisterPackages OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FSimpleInjector.3.1.2%2Flib%2Fnet45%2FSimpleInjector.dll Namespace%3DSimpleInjector Type%3DContainer)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8702239b-24d6-4ee1-be4b-e99429b71481"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7a9c77c-2a79-40ff-b130-14e3c6c702e9">
+                    <propertyInstance
+                      Id="2abfada9-313c-448d-8c85-1352f786755a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40c6f06f-28a6-4edf-9cf7-4d12bba2a20a">
+                    <propertyInstance
+                      Id="3693edf5-6820-4a55-817b-dff79be61a57"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7ae6968-7551-4571-996e-63259a4453e9">
+                    <propertyInstance
+                      Id="e1df7abf-9b94-4066-858a-7731ab973c2c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d096da3-e5b4-4362-a342-5f0a619dc848">
+                    <propertyInstance
+                      Id="a3deb92b-70ee-4b75-a46b-ba88f5a6b9e1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7eda3174-0dd1-4cc2-bb85-c99fa3762912">
+                    <propertyInstance
+                      Id="af0d931a-96bc-4d79-a638-17271c11b651"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08255b12-87b5-4ec4-9c3d-bf12f77b27ab">
+                    <propertyInstance
+                      Id="72559f5f-cdbb-4527-b990-55e2e75b960d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="491cf3ce-3a11-4625-bb51-e216c994035e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="61d783f4-33c6-439b-b7ba-f74b4623afdd"
+                      LastKnownName="Container"
+                      LastKnownLocation="Package3_0705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b0aa1992-fb69-435a-bf85-cca1e9446442"
+                  name="container"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1f8b7f73-013f-463a-9b5d-a06e6cd0e78d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.EntryPoint%2Fbin%2FPathFinder.EntryPoint.dll Namespace%3DPathFinder.EntryPoint Type%3DSimpleInjectorConfiguration Member%3D(Name%3DRegisterPackages OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FSimpleInjector.3.1.2%2Flib%2Fnet45%2FSimpleInjector.dll Namespace%3DSimpleInjector Type%3DContainer)]) ParameterIdentifier%3Dcontainer"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="61d783f4-33c6-439b-b7ba-f74b4623afdd"
+                      LastKnownName="Container"
+                      LastKnownLocation="Package3_0705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

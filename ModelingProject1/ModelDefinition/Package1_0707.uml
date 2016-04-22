@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="3341c904-42b7-4be2-89b9-73e1fe015c55"
+  name="Constants"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f5c1f357-67b0-48c5-a087-288f5fd96bd1"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPathFinder.Infrastructure.Constants"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="711552a5-936b-40c6-8adf-d75955b66cf0"
+        name="CommonRouteConstants"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="967bd15a-bb41-4c64-8937-e41c0a51f39a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Infrastructure%2Fbin%2FDebug%2FPathFinder.Infrastructure.dll Namespace%3DPathFinder.Infrastructure.Constants Type%3DCommonRouteConstants"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d72a7f98-cbdd-422b-bcf7-23645bcf1b14"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36c8c7e5-537a-424a-bc31-436e8fdc947b">
+                <propertyInstance
+                  Id="74858238-7303-41d4-93cc-4fdaf72eee53"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="680a59b3-312d-487b-a18b-759b17767401">
+                <propertyInstance
+                  Id="40d5a7e8-aab6-4c85-86e6-2a1f231c4682"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1d8895b-8ef3-4115-9d11-b932040f05fb">
+                <propertyInstance
+                  Id="1ea5b9ea-c3d6-4930-b387-ccda32ec140b"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="723599fc-c52a-472d-87f9-ca32f013fdcc">
+                <propertyInstance
+                  Id="d9fafbad-8a8f-419b-9217-dba2e2f7f29a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b2e7de05-74cb-4032-b303-2bff077a2650">
+                <propertyInstance
+                  Id="693e68a3-a455-4002-afd7-a5e72031628c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="d527a5c9-e104-4862-88ef-47d478fe3158"
+            name="RouteBase"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0fca4baa-ace9-4ce4-b0d9-5aa158d06dc3"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Infrastructure%2Fbin%2FDebug%2FPathFinder.Infrastructure.dll Namespace%3DPathFinder.Infrastructure.Constants Type%3DCommonRouteConstants Member%3DRouteBase"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e384c7ef-4fdc-4465-8816-2cb05430ca8e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f55173a-e1b8-49e1-acef-de85d5ccaf98">
+                    <propertyInstance
+                      Id="318da981-c212-4887-abed-f6438b798caa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eda5efd6-c5f2-4fe6-8aad-a78784911526">
+                    <propertyInstance
+                      Id="0e187819-f041-4181-b7e5-09d480cc8164"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="508329c2-db9a-4c48-9689-d70505c85715">
+                    <propertyInstance
+                      Id="e1a363b5-3b10-4b4f-bcaa-aa7f3805361f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42b2217c-5038-43f7-a5ef-5d4e9b1ce75a">
+                    <propertyInstance
+                      Id="1feb92cb-f36d-42c0-b6d4-9a5f7205c7cb"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e20fd52d-1dce-41bd-94ed-d787f0c75aca">
+                    <propertyInstance
+                      Id="d6eac429-bedb-42e2-964f-84b22600df52"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

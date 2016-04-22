@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="3bf8a784-7fb7-4643-8dcb-e01005ccec7f" name="UMLComponentDiagram1" linkedPackageId="14907b13-3fd6-4309-975c-83a7a0385149" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="446d94a1-2fe5-43d2-978b-55c51a144bac">
+      <profileInstance Id="71235e73-b36c-4f6d-855a-08ff3def676c" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="591d1db7-4fe7-4b96-90a2-6ba1641d60c1">
+      <profileInstance Id="0ab38399-041f-4e85-a4da-2d58ff221c6c" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="1fe77b62-6aa1-44c2-aaf3-a48df865d860">
+      <profileInstance Id="6f09a8d7-bb8d-4570-b4f9-4f7f3032e08e" name="CSharpProfile">
+        <elementDefinition Id="9255ec7f-93d1-4fcc-81eb-918d785509b4" />
+      </profileInstance>
+      <elementDefinition Id="caa77862-e4d8-4e99-b87e-13fa1388b963" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="2f0b75d8-7e13-4dbc-b25b-0b9bbbed28d8" name="Security" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f3e23456-5c23-4c2c-9abe-e2a10b49932c" />
+        <ownedAttributesInternal>
+          <part Id="670c9201-a161-4998-889c-7ce00849cb3e" name="Security.WebApi" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="80d64206-5199-424a-ae88-dc28554d2a9e" />
+            <type_NamedElement>
+              <componentMoniker Id="83cf141d-cbc1-463b-95ad-4de3eb89270e" LastKnownName="Component1" />
+            </type_NamedElement>
+          </part>
+          <part Id="6212836c-b471-4bd2-b258-5dde5db85f38" name="Security.DAL" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="de31877a-018f-4421-a428-a79e84e169e1" />
+            <type_NamedElement>
+              <componentMoniker Id="fa4c8989-c746-48fa-b0ce-cc2cc3457797" LastKnownName="Component2" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="999e255d-26b1-4241-9a47-94fbd3805591" name="EntryPoint" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bd3ceda9-bc19-4742-b5ae-34958bb1cb91" />
+        <suppliersInternal>
+          <dependency Id="44aaee50-88cf-476d-8482-4e3f31edc7a2">
+            <componentMoniker Id="2f0b75d8-7e13-4dbc-b25b-0b9bbbed28d8" LastKnownName="Security" />
+            <elementDefinition Id="68dea93e-d19b-4d7b-87ab-84e03814ee6d" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="83cf141d-cbc1-463b-95ad-4de3eb89270e" name="Component1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="51e811d6-3cc0-4ae5-9489-ac72f7952185" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="fa4c8989-c746-48fa-b0ce-cc2cc3457797" name="Component2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9cfe2fc3-fa3b-409e-93b1-9423a2aea9b4" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="3aebf416-16ee-44a0-93d4-84710fcdaa10" name="Infrastructure" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="71d6d848-6ab1-4065-a5c0-ba72b4e6749b" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="c18c24f9-099f-48d7-8b83-af9ce3e8cd3a" name="Mobile Client" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="af3c339e-a726-4c96-b87b-6d10f31b3015" />
+        <suppliersInternal>
+          <dependency Id="9f37d90f-e4d1-465b-80ac-d964f71fc6e7">
+            <componentMoniker Id="999e255d-26b1-4241-9a47-94fbd3805591" LastKnownName="EntryPoint" />
+            <elementDefinition Id="8d84414e-07b9-4b7d-b03d-1edbf9f8245c" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="14907b13-3fd6-4309-975c-83a7a0385149" name="ModelingProject1">
+    <elementDefinition Id="83d87253-2dd4-4794-9f33-847e42f8da53" />
+  </package>
+</componentModel>

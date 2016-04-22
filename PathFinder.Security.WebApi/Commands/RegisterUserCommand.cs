@@ -6,11 +6,6 @@ using PathFinder.Security.WebApi.Models;
 
 namespace PathFinder.Security.WebApi.Commands
 {
-    public interface IRegisterUserCommand
-    {
-        Task<int?> RegisterUser(RegisterUserModel userModel);
-    }
-
     class RegisterUserCommand : IRegisterUserCommand
     {
         private readonly AppUserManager _userManager;

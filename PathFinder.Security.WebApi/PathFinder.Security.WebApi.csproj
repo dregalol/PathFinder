@@ -84,6 +84,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\IRegisterUserCommand.cs" />
     <Compile Include="Commands\RegisterUserCommand.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Mappers\UserMapper.cs" />

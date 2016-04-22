@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="40384513-bb40-4db2-ac9b-79c6cf7a796e"
+  name="Package"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="df4c8e73-9a1c-40a8-8fb3-8f623ae7148b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPathFinder.Security.WebApi.Package"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="2d3e25d7-b125-43d3-9a0f-9a2599005327"
+        name="SecurityWebApiPackage"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ca13bcc6-058b-4157-9144-6b47b6c670a7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Package Type%3DSecurityWebApiPackage"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="05cbeefe-140e-44e9-afc5-31cdcdf97275"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="620ac142-9e7d-43c2-a685-1475d58ab46f">
+                <propertyInstance
+                  Id="49a681e7-6e29-4db0-ae07-af27a0c555df"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a67d105f-0622-4937-a3ce-dd9d4371c682">
+                <propertyInstance
+                  Id="44246fac-a2f8-4500-affb-4dcf7400c17f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="07bd75ee-c25f-4b1c-94d7-6f86fc21cc4a">
+                <propertyInstance
+                  Id="3bd2310f-5a3b-41d6-ab02-7d513218ef2a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="92d9e5f3-cc6c-40a6-8481-0599a562b711">
+                <propertyInstance
+                  Id="1ac13f71-a33f-4399-98f0-a0e8c232f1be"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d643f335-814a-4cbc-8da0-ca65319f8abf">
+                <propertyInstance
+                  Id="c095c7b8-033d-447f-8a75-e4d00e3b577f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="e1a1a099-16d9-4c6a-8e41-8cdc660a8b34">
+            <interfaceMoniker
+              Id="3d6e83ea-5a2e-4bc7-a8cd-727d40a2a0cb"
+              LastKnownName="IPackage"
+              LastKnownLocation="Package1_0755.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="cab1be8e-d589-4de7-99d4-0b3a1e1411a8"
+            name="RegisterServices"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="05a8aae9-db79-4a57-8e71-d1c8e3bdb5f7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Package Type%3DSecurityWebApiPackage Member%3D(Name%3DRegisterServices OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FSimpleInjector.3.1.2%2Flib%2Fnet45%2FSimpleInjector.dll Namespace%3DSimpleInjector Type%3DContainer)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2c53316a-0e94-4878-8400-3bac42b8741b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0aaa871e-d170-4028-a8a5-1dc11c453f7b">
+                    <propertyInstance
+                      Id="d2236dd3-a5b1-4a7f-98f9-6b778cb25d0d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46eeb14c-23b4-49a8-874d-b74d1f96232d">
+                    <propertyInstance
+                      Id="a848ed62-007b-4fd1-a965-154ea3a0d78a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4abe08e3-0f02-4168-b11c-a7b31aaa7973">
+                    <propertyInstance
+                      Id="9bbd8ae5-a976-4b2f-845d-aa8422d673a4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="400fbf61-4fc6-4236-b7cf-72893562667e">
+                    <propertyInstance
+                      Id="0b11c6f2-bfe6-4e11-a56d-19abf690c87f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9873b028-33a1-465c-a8ce-99a3cac30fa1">
+                    <propertyInstance
+                      Id="f7b0cd30-cf30-4c12-817b-1e41189b2b0b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9a855ca-e4e6-46ed-a375-790664419b01">
+                    <propertyInstance
+                      Id="6c18ab3d-fe63-44e6-9797-7f930f863031"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6fc6d690-047c-4074-a5c2-56b03d5006fa"
+                  name="container"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="40f8839b-a4fe-4a94-babc-55d550fad7bf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Package Type%3DSecurityWebApiPackage Member%3D(Name%3DRegisterServices OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FSimpleInjector.3.1.2%2Flib%2Fnet45%2FSimpleInjector.dll Namespace%3DSimpleInjector Type%3DContainer)]) ParameterIdentifier%3Dcontainer"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="61d783f4-33c6-439b-b7ba-f74b4623afdd"
+                      LastKnownName="Container"
+                      LastKnownLocation="Package3_0705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c775a35c-dc76-465a-b318-d9a79e4847b5"
+            name="SecurityWebApiPackage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c78d8897-9efe-4485-a0ae-84b9797db07e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.WebApi%2Fbin%2FDebug%2FPathFinder.Security.WebApi.dll Namespace%3DPathFinder.Security.WebApi.Package Type%3DSecurityWebApiPackage Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="90be3baf-ea71-4dd5-ba1f-5ca655afad19"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="397b3b29-fc00-4aad-bee4-fd9c5d7b9d4d">
+                    <propertyInstance
+                      Id="43d92cda-ab03-4ba7-ade5-caf9874d7349"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12e7e3b2-680c-4c04-82b0-ec0700235024">
+                    <propertyInstance
+                      Id="479edfb4-77bd-421a-a711-a5aad1957f83"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45faef47-449e-4b05-af3f-22a90bff500f">
+                    <propertyInstance
+                      Id="f15e0fd5-9dd0-459b-8822-8cc65272fa7d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="359d00c1-1c76-47bb-8581-70d00504a7d5">
+                    <propertyInstance
+                      Id="6a62c797-3e29-4946-bccd-928018b1fbeb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="226a1bfd-3c31-470b-a5fc-822b3e48c1b7">
+                    <propertyInstance
+                      Id="5e71c9f7-db06-4271-bedf-a3af5b829295"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34c18fdc-dc89-41fc-a65f-4ad1a532bb1b">
+                    <propertyInstance
+                      Id="17963ca2-b4f3-4521-b06a-0a6834d9667a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

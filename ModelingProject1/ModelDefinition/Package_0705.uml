@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="404524b3-4634-4b62-ba9b-8e500c72fe0e"
+  name="PathFinder"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0bf38f35-5e2b-483c-ac01-980a970731a2"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPathFinder"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="eb849fc6-e809-464f-9fcb-16f490be2ffe"
+        LastKnownName="EntryPoint"
+        LastKnownLocation="Package1_0705.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="17c47dfd-deec-4738-b841-f64aba638922"
+        LastKnownName="Infrastructure"
+        LastKnownLocation="Package_0707.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="86828438-b04c-444b-bff4-dc834513bf29"
+        LastKnownName="Security"
+        LastKnownLocation="Package8_0708.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

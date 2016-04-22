@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="86b353ae-1bc2-48bf-bad1-fe12566b2cbb"
+  name="Managers"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0dee5d5f-423f-4b3b-b9c3-78e67db7882f"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPathFinder.Security.DAL.Managers"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="afc80b7f-4537-4e4b-ac4f-4ba85510184d"
+        name="AppUserManager"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ace7db53-3cc0-4566-81be-736fb6a8f3c7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.DAL%2Fbin%2FDebug%2FPathFinder.Security.DAL.dll Namespace%3DPathFinder.Security.DAL.Managers Type%3DAppUserManager"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b2f86b7c-5b5f-4aea-9355-f9e592d8708b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a0f0ede-9a27-406a-8dc5-a7d8411bd05a">
+                <propertyInstance
+                  Id="d18b2bfa-62a0-4495-8ab1-cd829ce5861e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b4305a3a-7478-4792-b16b-1c4e6ff82b29">
+                <propertyInstance
+                  Id="9f57b948-449d-48a9-aa2a-f32088a75726"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="901f18d4-d24a-4d59-bcca-91294e269aef">
+                <propertyInstance
+                  Id="f80b13a6-ad4f-4050-a281-4e677598db92"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ee4bf70a-bf4d-4072-a1cd-2430da8ffa15">
+                <propertyInstance
+                  Id="ff096a70-c761-4096-a593-1fc9eedd5573"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6687de0e-1d95-459f-8614-701080584a5b">
+                <propertyInstance
+                  Id="167355e5-fd00-41d4-b46a-3a1b576c6d6f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="3002c0e4-d044-49ab-bda5-2fd5186ec59e"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8cddfd98-0bdf-476f-b8fd-8747c1fdff74"
+              LastKnownName="UserManager&lt;AppUser‎, Int32‎&gt;"
+              LastKnownLocation="Package14_0708.uml" />
+          </generalization>
+          <generalization
+            Id="edc97af7-7be8-4201-8276-4a7d6d889cf9"
+            isSubstitutable="false">
+            <classMoniker
+              Id="c2fcb480-11de-42e1-9bff-f93b8c0717cd"
+              LastKnownName="UserManager"
+              LastKnownLocation="Package14_0708.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ab306b47-d596-4261-92f6-1b21dcb8915f"
+            name="AppUserManager"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fcde1934-7538-4d27-8b30-1e49b09acfa0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.DAL%2Fbin%2FDebug%2FPathFinder.Security.DAL.dll Namespace%3DPathFinder.Security.DAL.Managers Type%3DAppUserManager Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FMicrosoft.AspNet.Identity.Core.2.2.1%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Core.dll Namespace%3DMicrosoft.AspNet.Identity Type%3D(Name%3DIUserStore GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.DAL%2Fbin%2FDebug%2FPathFinder.Security.DAL.dll Namespace%3DPathFinder.Security.DAL.Entities Type%3DAppUser)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3d2ae2a7-7644-4055-a138-ba34347a596c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="706df9f6-ba60-4ea7-bc62-ab580b9bd3fc">
+                    <propertyInstance
+                      Id="5d9a94d7-130e-45e9-962b-24fe76682f6e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0e64b6f-998d-4a52-85ab-f89516f37497">
+                    <propertyInstance
+                      Id="6df8cab3-b453-4e77-9f37-11e98c1aaef7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6e5b991-791a-4759-9707-d5d5a8c650c2">
+                    <propertyInstance
+                      Id="be387222-acaf-4847-8738-0e26d52cc611"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64c955fc-00f1-4c4e-a039-651c291ab11d">
+                    <propertyInstance
+                      Id="9a024864-c711-42c8-ba49-37b3dca00a36"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="074d6068-06c6-40d7-8611-ec2736764e97">
+                    <propertyInstance
+                      Id="f391f6c2-d45b-4522-a06a-b5f5095b6703"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea45eea6-01e1-49b1-8e5d-549ccfd83c8b">
+                    <propertyInstance
+                      Id="020b7a3f-3884-41f3-8614-731bfe3caa33"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="07ff384a-6104-4d34-818f-e45469eeae1d"
+                  name="store"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e0a01a23-8095-42ff-a743-f07219c10e7f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.DAL%2Fbin%2FDebug%2FPathFinder.Security.DAL.dll Namespace%3DPathFinder.Security.DAL.Managers Type%3DAppUserManager Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2Fpackages%2FMicrosoft.AspNet.Identity.Core.2.2.1%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Core.dll Namespace%3DMicrosoft.AspNet.Identity Type%3D(Name%3DIUserStore GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FVladyslav%2FGit%2FPathFinder%2FPathFinder.Security.DAL%2Fbin%2FDebug%2FPathFinder.Security.DAL.dll Namespace%3DPathFinder.Security.DAL.Entities Type%3DAppUser)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3Dstore"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="64a7f10a-8ce7-457c-a92a-cb2ff557b816"
+                      LastKnownName="IUserStore&lt;AppUser‎, Int32‎&gt;"
+                      LastKnownLocation="Package14_0708.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
